@@ -161,17 +161,7 @@ header-includes:
 > ls   
 > cd   
 > cp /usr/include/sys/io.h equipment 
-> ls   
-> mkdir ski.plases.  
-> mv equipment ski.plases./ 
-> ls ski.plases./  
-> mv /ski.plases/equipment /ski.plases/equipment 
-> ls   
-> mv /ski.plases./equipment ~ 
-> mv ski.plases./equipment ~ 
-> ls   
-> rm -r ski.plases./ 
-> ls   
+> ls     
 > mkdir ski.plases  
 > ls   
 > mv equipment ski.plases/ 
