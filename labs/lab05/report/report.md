@@ -111,120 +111,121 @@ header-includes:
 
 # Команды
 
->touch abc1
-  197  cp abc1 april
-  198  cp abc1 may
-  199  ls
-  200  mkdir monthly
-  201  cp april may monthly
-  202  ls
-  203  cd monthly/
-  204  ls
-  205  cp monthly/may monthly/june
-  206  cd
-  207  cp monthly/may monthly/june
-  208  ls monthly/
-  209  mkdir monthly.00
-  210  cp -r monthly monthly.00
-  211  ls monthly.00/
-  212  cp -r monthly.00 /tmp
-  213  mv april july
-  214  ls
-  215  mv july monthly.00
-  216  ls monthly.00
-  217  cd monthly.00/monthly/
-  218  ls
-  219  cd
-  220  mv monthly.00 monthly.01
-  221  ls
-  222  mkdir reports
-  223  mv monthly.01 reports
-  224  ls reports/
-  225  mv reports/monthly.01 reports/monthly
-  226  ls reports/
-  227  touch may
-  228  ls -l may
-  229  chmod u+x may
-  230  ls -l may
-  231  chmod u-x may
-  232  ls -l may
-  233  mkdir monthly
-  234  chmod g-r, o-r monthly
-  235  chmod g-r monthly
-  236  chmod o-r monthly
-  237  chmod g-r o-r monthly
-  238  touch abc1
-  239  chmod g+w abc1
-  240  ls -l abc1 
-  241  cd /usr/include/sys/
-  242  pwd
-  243  ls
-  244  cd 
-  245  cp /usr/include/sys/io.h equipment
-  246  ls
-  247  mkdir ski.plases.
-  248  mv equipment ski.plases./
-  249  ls ski.plases./
-  250  mv /ski.plases/equipment /ski.plases/equipment
-  251  ls
-  252  mv /ski.plases./equipment ~
-  253  mv ski.plases./equipment ~
-  254  ls
-  255  rm -r ski.plases./
-  256  ls
-  257  mkdir ski.plases
-  258  ls
-  259  mv equipment ski.plases/
-  260  ls ski.plases/
-  261  mv /ski.plases/equipment /ski.plases/equipment
-  262  mv ski.plases/equipment ski.plases/equipment
-  263  mv ski.plases/equipment ski.plases/equiplist
-  264  ls ski.plases/
-  265  cp abc1 ski.plases/equiplist2
-  266  ls ski.plases/
-  267  mkdir ski.plases/equipment
-  268  mv ski.plases/equiplist ski.plases/equiplist ski.plases/equipment/
-  269  mv ski.plases/equiplist ski.plases/equipment/
-  270  mv ski.plases/equiplist2 ski.plases/equipment/
-  271  cd ski.plases/
-  272  ls
-  273  cd equipment/
-  274  ls
-  275  cd
-  276  mkdir newdir
-  277  mv newdir/ ski.plases/plans
-  278  ls ski.plases/
-  279  cd /etc/password
-  280  mkdir australia play
-  281  chmod 744 australia/
-  282  chmod 711 play/
-  283  ls -l australia/
-  284  ls -l australia
-  285  ls -l play/
-  286  touch my_os
-  287  touch feathers
-  288  chmod 544 my_os 
-  289  chmod 664 feathers 
-  290  ls -l feathers 
-  291  cp feathers file.old
-  292  mv file.old play/
-  293  cp play/ fun/
-  294  cp -r play/ fun/
-  295  mv fun/ play/game
-  296  chmod u-r feathers 
-  297  cat feathers 
-  298  cp feathers feathers000000000
-  299  chmod u+x feathers 
-  300  cmod u-x play/
-  301  chmod u-x play/
-  302  cd play/
-  303  chmod u+x play/
-  304  cd play/
-  305  cd
-  306  man fsck
-  307  man mkfs
-  308  man mount
-  309  man kill
+> touch abc1  
+> cp abc1 april 
+> cp abc1 may 
+> ls   
+> mkdir monthly  
+> cp april may monthly
+> ls   
+> cd monthly/  
+> ls   
+> cp monthly/may monthly/june 
+> cd   
+> cp monthly/may monthly/june 
+> ls monthly/  
+> mkdir monthly.00  
+> cp -r monthly monthly.00
+> ls monthly.00/  
+> cp -r monthly.00 /tmp
+> mv april july 
+> ls   
+> mv july monthly.00 
+> ls monthly.00  
+> cd monthly.00/monthly/  
+> ls   
+> cd   
+> mv monthly.00 monthly.01 
+> ls   
+> mkdir reports  
+> mv monthly.01 reports 
+> ls reports/  
+> mv reports/monthly.01 reports/monthly 
+> ls reports/  
+> touch may  
+> ls -l may 
+> chmod u+x may 
+> ls -l may 
+> chmod u-x may 
+> ls -l may 
+> mkdir monthly  
+> chmod g-r, o-r monthly
+> chmod g-r monthly 
+> chmod o-r monthly 
+> chmod g-r o-r monthly
+> touch abc1  
+> chmod g+w abc1 
+> ls -l abc1 
+> cd /usr/include/sys/  
+> pwd   
+> ls   
+> cd   
+> cp /usr/include/sys/io.h equipment 
+> ls   
+> mkdir ski.plases.  
+> mv equipment ski.plases./ 
+> ls ski.plases./  
+> mv /ski.plases/equipment /ski.plases/equipment 
+> ls   
+> mv /ski.plases./equipment ~ 
+> mv ski.plases./equipment ~ 
+> ls   
+> rm -r ski.plases./ 
+> ls   
+> mkdir ski.plases  
+> ls   
+> mv equipment ski.plases/ 
+> ls ski.plases/  
+> mv /ski.plases/equipment /ski.plases/equipment 
+> mv ski.plases/equipment ski.plases/equipment 
+> mv ski.plases/equipment ski.plases/equiplist 
+> ls ski.plases/  
+> cp abc1 ski.plases/equiplist2 
+> ls ski.plases/  
+> mkdir ski.plases/equipment  
+> mv ski.plases/equiplist ski.plases/equiplist ski.plases/equipment/
+> mv ski.plases/equiplist ski.plases/equipment/ 
+> mv ski.plases/equiplist2 ski.plases/equipment/ 
+> cd ski.plases/  
+> ls   
+> cd equipment/  
+> ls   
+> cd   
+> mkdir newdir  
+> mv newdir/ ski.plases/plans 
+> ls ski.plases/  
+> cd /etc/password  
+> mkdir australia play 
+> chmod 744 australia/ 
+> chmod 711 play/ 
+> ls -l australia/ 
+> ls -l australia 
+> ls -l play/ 
+> touch my_os  
+> touch feathers  
+> chmod 544 my_os 
+> chmod 664 feathers 
+> ls -l feathers 
+> cp feathers file.old 
+> mv file.old play/ 
+> cp play/ fun/ 
+> cp -r play/ fun/
+> mv fun/ play/game 
+> chmod u-r feathers 
+> cat feathers  
+> cp feathers feathers000000000 
+> chmod u+x feathers 
+> cmod u-x play/ 
+> chmod u-x play/ 
+> cd play/  
+> chmod u+x play/ 
+> cd play/  
+> cd   
+> man fsck  
+> man mkfs  
+> man mount  
+> man kill  
+
 
 
 
