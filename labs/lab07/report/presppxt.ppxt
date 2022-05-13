@@ -1,0 +1,57 @@
+<h1 id="цель-работы">Цель работы</h1>
+<p>Освоение основных возможностей командной оболочки Midnight Commander. Приобретение навыков практической работы по просмотру каталогов и файлов; манипуляций с ними.</p>
+<h1 id="задание">Задание</h1>
+<p>Задание состорит в выполнении некоторых действий с mc редактором, направленных на улучшение понимания работы с последним.</p>
+<h1 id="теоретическое-введение">Теоретическое введение</h1>
+<p>Ссылка на <a href="https://github.com/DankoDmitry/study_2021-2022_os-intro">Github</a></p>
+<h1 id="выполнение-лабораторной-работы">Выполнение лабораторной работы</h1>
+<figure>
+<img src="image/1.png" alt="Рис. 1." /><figcaption aria-hidden="true"><em>Рис. 1.</em></figcaption>
+</figure>
+<figure>
+<img src="image/2.png" alt="Рис. 2." /><figcaption aria-hidden="true"><em>Рис. 2.</em></figcaption>
+</figure>
+<figure>
+<img src="image/3.png" alt="Рис. 3." /><figcaption aria-hidden="true"><em>Рис. 3.</em></figcaption>
+</figure>
+<figure>
+<img src="image/4.png" alt="Рис. 4." /><figcaption aria-hidden="true"><em>Рис. 4.</em></figcaption>
+</figure>
+<figure>
+<img src="image/5.png" alt="Рис. 5." /><figcaption aria-hidden="true"><em>Рис. 5.</em></figcaption>
+</figure>
+<figure>
+<img src="image/6.png" alt="Рис. 6." /><figcaption aria-hidden="true"><em>Рис. 6.</em></figcaption>
+</figure>
+<figure>
+<img src="image/7.png" alt="Рис. 7." /><figcaption aria-hidden="true"><em>Рис. 7.</em></figcaption>
+</figure>
+<figure>
+<img src="image/8.png" alt="Рис. 8." /><figcaption aria-hidden="true"><em>Рис. 8.</em></figcaption>
+</figure>
+<figure>
+<img src="image/9.png" alt="Рис. 9." /><figcaption aria-hidden="true"><em>Рис. 9.</em></figcaption>
+</figure>
+<figure>
+<img src="image/10.png" alt="Рис. 10." /><figcaption aria-hidden="true"><em>Рис. 10.</em></figcaption>
+</figure>
+<figure>
+<img src="image/11.png" alt="Рис. 11." /><figcaption aria-hidden="true"><em>Рис. 11.</em></figcaption>
+</figure>
+<figure>
+<img src="image/12.png" alt="Рис. 12." /><figcaption aria-hidden="true"><em>Рис. 12.</em></figcaption>
+</figure>
+<figure>
+<img src="image/13.png" alt="Рис. 13." /><figcaption aria-hidden="true"><em>Рис. 13.</em></figcaption>
+</figure>
+<h1 id="выводы">Выводы</h1>
+<p>В ходе выполнения данной лабораторной работы научились работать с редактором mc.</p>
+<h1 id="контрольные-вопросы">Контрольные вопросы</h1>
+<ul>
+<li><p>Работа с системами хранения файлов и директорий, редактор самих файлов.</p></li>
+<li><p>Создавать, копировать, перемещать…</p></li>
+<li><p>Данная структура помагает легче работать с директориями и файлами.</p></li>
+<li><p>Данная вкладка настроена прямо на работу с выбранным файлом или директорией.</p></li>
+<li><p>Данная вкладка более всех похожа на командную строку, больше помогает переходить из папки в папку.</p></li>
+<li><p>Позволяет настроить mc.</p></li>
+</ul>
