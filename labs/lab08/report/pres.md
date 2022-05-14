@@ -86,18 +86,13 @@ header-includes:
 
 ![*Рис. 1.* ](image/1.png)
 
-
 ![*Рис. 2.*](image/2.png)
 
- 
 ![*Рис. 3.*](image/3.png)
 
- 
 ![*Рис. 4.*](image/4.png)
 
-
 ![*Рис. 5.*](image/5.png)
-
 
 ![*Рис. 6.*](image/6.png)
 
